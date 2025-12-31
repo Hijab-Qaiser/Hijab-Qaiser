@@ -1,5 +1,5 @@
 # 💫 About Me:
-A-Level student with a strong passion for the emerging field of AI Security. Learning about development, especially interested in full-stack and app development, I also have an interest in AI and cybersecurity, so I want to build technologies or tools which will be useful in fields like AI nd cyber security, hence integrating all three of my interests. Open-Source Driven, Passionate AI, Development and cybersecurity. Continuously learning, building projects, and contributing to open-source.
+A-Level student with a strong passion for the emerging field of AI Security. Learning about development, especially interested in full-stack and app development, I also have an interest in AI and cybersecurity, so I want to build technologies or tools which will be useful in fields like AI nd cyber security, hence integrating all three of my interests. Open-Source Driven, Passionate about AI, Development and cybersecurity. Continuously learning, building projects, and contributing to open-source.
 
 
 ## 🌐 Socials:
