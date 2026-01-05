@@ -23,7 +23,7 @@ Continuously learning, building projects, and contributing to open-source.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Visual%20Basic-512BD4?style=for-the-badge&logo=.net&logoColor=white" />
+  <img src="https://streak-stats.demolab.com?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
