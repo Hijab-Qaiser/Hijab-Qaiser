@@ -1,24 +1,66 @@
-name: Generate Snake
+name: Generate-Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch: {}
+  push:
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Hijab-Qaiser
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
+      # 1️⃣ Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: crazy-max/ghaction-github-pages@v3
+      # 2️⃣ Generate light SVG
+      - name: Generate GitHub Contribution Grid Snake (light)
+        uses: Platane/snk/svg-only@v3
         with:
-          target_branch: output
-          build_dir: dist
+          github_user_name: ${{ github.repository_owner }}
+          output: dist/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3️⃣ Generate dark SVG
+      - name: Generate GitHub Contribution Grid Snake (dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output: dist/github-contribution-grid-snake-dark.svg
+          palette: github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4️⃣ Push SVGs to the output branch (create branch if it doesn't exist)
+      - name: Push to output branch
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const branch = 'output';
+            const { execSync } = require('child_process');
+
+            // Configure git
+            execSync('git config user.name "github-actions[bot]"');
+            execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
+
+            // Create output branch if it doesn't exist
+            try {
+              execSync(`git checkout ${branch}`);
+            } catch {
+              execSync(`git checkout --orphan ${branch}`);
+              execSync('git rm -rf .');
+            }
+
+            // Copy files from dist
+            execSync('cp -r dist/* .');
+
+            // Commit and push
+            execSync('git add .');
+            execSync('git commit -m "Update GitHub Contribution Grid Snake" || echo "Nothing to commit"');
+            execSync(`git push -u origin ${branch} --force`);
+
