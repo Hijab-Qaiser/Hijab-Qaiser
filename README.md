@@ -28,11 +28,17 @@ Continuously learning, building projects, and contributing to open-source.
 
 ---
 
-<!-- GitHub Stats -->
+<!-- GitHub Stats and contribution snake-->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hijab-Qaiser/Hijab-Qaiser/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Hijab-Qaiser/Hijab-Qaiser/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
