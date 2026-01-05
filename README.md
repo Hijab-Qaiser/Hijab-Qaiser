@@ -25,28 +25,19 @@ Continuously learning, building projects, and contributing to open-source.
 <p align="center">
   <img src="https://img.shields.io/badge/Visual%20Basic-512BD4?style=for-the-badge&logo=.net&logoColor=white" />
 </p>
+
 ---
 
 <!-- ================== CONTRIBUTION SNAKE ================== -->
 <h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Hijab-Qaiser/Hijab-Qaiser/output/github-contribution-grid-snake-dark.svg" />
+<img src="github/workflows/snake.yml/Hijab-Qaiser/Hijab-Qaiser/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
 
-<!-- ================== GITHUB STATS ================== -->
-<h2 align="center">📊 GitHub Statistics</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hijab-Qaiser&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hijab-Qaiser&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
+<!-- GitHub Stats -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
 </p>
