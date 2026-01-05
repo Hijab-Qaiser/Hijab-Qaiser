@@ -28,15 +28,6 @@ Continuously learning, building projects, and contributing to open-source.
 
 ---
 
-<!-- ================== CONTRIBUTION SNAKE ================== -->
-<h2 align="center">🐍 Contribution Snake</h2>
-
-<p align="center">
-<img src="github/workflows/snake.yml/Hijab-Qaiser/Hijab-Qaiser/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
 <!-- GitHub Stats -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
