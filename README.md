@@ -22,16 +22,7 @@ Continuously learning, building projects, and contributing to open-source.
   <img src="https://skillicons.dev/icons?i=cpp,python,git,github,pycharm,vscode,windows&theme=dark" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
-</p>
 
----
-
-<!-- GitHub Stats and contribution snake-->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hijab-Qaiser&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
