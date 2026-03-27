@@ -36,11 +36,7 @@ Continuously learning, building projects, and contributing to open-source.
   <a href="https://www.linkedin.com/in/hijabqaiser">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://www.instagram.com/itss_hijab/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-
+  
 ---
 
 <!-- ================== PROFILE VIEWS ================== -->
@@ -50,22 +46,4 @@ Continuously learning, building projects, and contributing to open-source.
   <img src="https://komarev.com/ghpvc/?username=Hijab-Qaiser&label=Profile%20Views&color=8A2BE2&style=for-the-badge" />
 </p>
 
----
-
-<h2 align="center">🧠 My Mission</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Security-8A2BE2?style=for-the-badge&logo=shield&logoColor=white" />
-  <img src="https://img.shields.io/badge/Development-00FFFF?style=for-the-badge&logo=code&logoColor=black" />
-  <img src="https://img.shields.io/badge/Cybersecurity-FF4D4D?style=for-the-badge&logo=lock&logoColor=white" />
-</p>
-
-<p align="center">
-  To design <b>secure</b>, <b>intelligent</b>, and <b>impact-driven</b> technologies<br/>
-  that protect systems, empower people, and shape the future responsibly.
-</p>
-
-<p align="center"><b>Building • Securing • Innovating</b></p>
-
----
 
