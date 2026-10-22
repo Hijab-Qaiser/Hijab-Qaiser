@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&duration=2500&pause=800&color=8A2BE2&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Hijab;Hijab+Qaiser;Future+AI+Security+Engineer" alt="Typing SVG" />
 
 <p>
-A-Level student with a deep passion for 𝐀𝐈 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲, the intersection where artificial intelligence meets cybersecurity. I believe the future of technology depends on building AI systems that are not just powerful, but 𝒔𝒂𝒇𝒆 𝒂𝒏𝒅 𝒔𝒆𝒄𝒖𝒓𝒆.
+A Level Computer Science student, with a strong interest in software development, AI, and problem-solving. Passionate about competitive programming, hackathons, open-source contributions, and collaborative problem-solving.
 <br/><br/>
 <b>Open-Source Driven • Passionate about AI, Development & Cybersecurity</b>
 <br/>
